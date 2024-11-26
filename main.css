@@ -1,0 +1,88 @@
+body {
+	width: 890px;
+	margin: 0 auto;
+	font: 10pt/1.5em Helvetica, "Helvetica neue", Arial, sans-serif;
+	background: #e8daef;
+}
+h1 {
+font-size: 40px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+text-transform: uppercase;
+color: #8e44ad;
+}
+h3 {
+font-size: 30px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+color: #a569bd;
+}
+h4 {
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+color: #bb8fce;
+}
+nav {
+display: block;
+}
+ul {
+list-style-type: none;
+margin: 10px;
+padding: 0;
+overflow: hidden;
+background-color: #bb8fce;
+border-radius: 20px;
+}
+li {
+float: left;
+}
+li a {
+display: block;
+color: #f5eef8;
+text-align: center;
+padding: 15px 26px;
+text-decoration: none;
+font-size: 20px;
+}
+li a:hover:not(.active) {
+background-color: #8e44ad;
+}
+.active {
+background-color: #8e44ad
+}
+aside {
+float: left;
+width: 420px;
+min-height: 600px;
+padding-right: 20px;
+text-align: justify;
+}
+#jesse-pic {
+float: left;
+margin:10px;
+height: 580px;
+width: 420px;
+border-radius: 15px;
+}
+section{
+float: right;
+width: 420px;
+min-height: 600px;
+padding-left: 20px;
+border-left: 5px solid #bb8fce;
+text-align: justify;
+}
+footer {
+clear: both;
+width: 890px;
+height: 100px;
+text-align: center;
+padding-top: 20px;
+font-size: 10px;
+}
+#footer-image {
+height: 30px;
+width: 30px;
+border-radius: 20px;
+}
